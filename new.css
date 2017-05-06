@@ -1,0 +1,353 @@
+body
+{
+	background-color:#FFFAF0;
+}
+
+.title
+{
+	position: fixed;
+	margin-top:-8%;	
+	margin-left:10%;
+}
+
+.title1
+{
+	position: fixed;
+	margin-top:-8%;	
+	margin-left:25.5%;
+	border-left:2px solid black;
+}
+
+form.searchbox_demo
+{
+	position:absolute;
+	margin-left:71.75%;
+	margin-top:-3%;
+}
+
+.tb1
+{
+	border: 2px solid black;
+}
+
+input.sa
+{
+	position:absolute;
+	margin-left:102%;
+	margin-top:-12%;
+}
+
+.homed
+{
+	background-color: black;
+	height: 8%;
+	width: 80%;
+	margin-top:10%;
+	margin-left:10%;
+}
+
+.home
+{
+	position: absolute;
+	width:10%;
+	height:5%;
+	margin-left:5%;
+	margin-top:1%;
+}
+.home:hover
+{
+	background-color:#D3D3D3;
+}
+.catalogue
+{
+	position:absolute;
+	width:10%;
+	height:5%;
+	margin-left:20%;
+	margin-top:1%;
+	display: inline-block;
+}
+
+.dropdown-menu
+{
+	z-index:50;
+}
+
+.dropdown-menu li
+{
+	margin-top:-8%;
+}
+
+.catalogue .dropdown-menu 
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin:0%;
+	margin-left:-29%;
+	width:100%;
+	height:300%;
+	display:none;
+	list-style: none;
+}
+
+.catalogue:hover
+{
+	background-color:#D3D3D3;
+}
+
+.catalogue:hover .dropdown-menu 
+{
+    display: block;
+}
+
+.catalogue a {
+    display: block;
+    text-decoration: none;
+	color: #333333;
+	background: black;
+}
+
+.catalogue a:hover {
+    background: #D3D3D3;
+}
+
+.about
+{
+	position: absolute;
+	width:10%;
+	height:5%;
+	margin-left:35%;
+	margin-top:1%;
+}
+.about:hover
+{
+	background-color:#D3D3D3;
+}
+.contact
+{
+	position: absolute;
+	width:10%;
+	height:5%;
+	margin-left:50%;
+	margin-top:1%;
+}
+.contact:hover
+{
+	background-color:#D3D3D3;
+}
+#sign
+{
+	position: absolute;
+	color:white;
+	width:10%;
+	height:5%;
+	margin-left:65%;
+	margin-top:1%;
+}
+#sign:hover
+{
+	background-color:#D3D3D3;
+	color:black;
+}
+
+form.signIn
+{
+	border: 2px solid black;
+}
+
+#panel {
+	margin-top:10%;
+    margin-left:5%;
+    display: none;
+	height:50%;
+	z-index:2;
+}
+
+.filter
+{
+	position:absolute;
+	border: 5px solid black;
+	height: 52%;
+	width:10%;
+	margin-top: 2.5%;
+	margin-left:10%;
+	background-color:#FCF0FF;
+}
+
+.filter1
+{
+	margin-top:-15%;
+	height:15%;
+	background-color:rgba(255,0,0,0.6);
+}
+
+.deal
+{
+	position:absolute;
+	border: 5px solid black;
+	height: 52%;
+	width:48%;
+	margin-top: 2.5%;
+	margin-left:22%;
+	background-color:#FFEEF4;
+	overflow:auto;
+}
+
+.new_log
+{
+	position:absolute;
+	border: 5px solid black;
+	height: 52%;
+	width:16%;
+	margin-top: 2.5%;
+	margin-left:72%;
+	background-color:#FCF0FF;
+	overflow:auto;
+}
+
+#new_log1
+{
+	margin-top:-8.5%;
+	height:15%;
+	background-color:rgba(255,0,0,0.6);
+}
+
+.footer
+{
+	background-color: black;
+	height: 6%;
+	width: 80%;
+	margin-top:31%;
+	margin-left:10%;
+}
+.contact1
+{
+	position: absolute;
+	width:10%;
+	height:5%;
+	margin-left:5%;
+	margin-top:0.5;
+}
+.contact1:hover
+{
+	background-color:#D3D3D3;
+}
+.terms
+{
+	position: absolute;
+	width:15%;
+	height:5%;
+	margin-left:23%;
+	margin-top:0.5;
+}
+.terms:hover
+{
+	background-color:#D3D3D3;
+}
+.pay
+{
+	position: absolute;
+	width:15%;
+	height:5%;
+	margin-left:45%;
+	margin-top:0.5;
+}
+.pay:hover
+{
+	background-color:#D3D3D3;
+}
+a.twitter
+{
+	position: absolute;
+	margin-left:65%;
+}
+a.fb
+{
+	position: absolute;
+	margin-left:70%;
+}
+a:link {
+    text-decoration: none;
+	color:white;
+}
+
+a:visited {
+    text-decoration: none;
+	color:white;
+}
+
+a:hover {
+    text-decoration: none;
+	color:black;
+}
+
+a:active {
+    text-decoration: none;
+	color:white;
+}
+input.filter
+{
+	background-color:black;
+	width:75%;
+	height:9.5%;
+	color:white;
+	border-top-left-radius:30%;
+	border-bottom-right-radius:30%;
+}
+input.radio
+{
+	border:2px solid black;
+}
+
+#img
+{
+	position:absolute;
+	height:80%;
+	width:94%;
+	margin-left:3%;
+	margin-top:5%;
+}
+
+.deal1
+{
+	position:absolute;
+	border: 2px solid black;
+	height: 52%;
+	width:48%;
+	margin-top: 2.5%;
+	margin-left:22%;
+	background-color:#FFE6E6;
+	font-size: 120%;
+	overflow:auto;
+	font-size:100%;
+}
+
+button.filter3
+{
+	background-color:black;
+	width:20%;
+	height:9%;
+	color:white;
+	border-top-left-radius:30%;
+	border-bottom-right-radius:30%;
+	font-size: 100%;
+}
+
+label, input {
+    //display: block;
+}
+
+label {
+    margin-top: 2%;
+}
+
+#error
+{
+	position:fixed;
+	height:4%;
+	width:15%;
+	margin-top:0.7%;
+	margin-left:72.85%;
+	z-index:50;
+}

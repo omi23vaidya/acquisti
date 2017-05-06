@@ -1,0 +1,106 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title> Acquisti </title>
+	<link rel="stylesheet" type="text/css" href="new.css">
+	<style>
+		form span{color:red};
+	</style>
+</head>
+	
+<body>
+	<div class="title">
+		<img src="img/title.png" height="15%">
+	</div>
+	<div class="title1">
+			<img src="img/title1.png" height="15%">
+	</div>
+	<form class="searchbox_demo" action="https://www.google.com/cse">
+		<input name="q" type="text" size="20" class="tb1"/>
+		<input type="submit" name="sa" value="Search" class="sa"/>
+	</form>
+	<script type="text/javascript" src="https%3A%2F%2Fcse.google.com%2Fcse/tools/onthefly?form=searchbox_demo&lang="></script>   
+	<div class="homed">
+			<div class="home">
+				<center><b><h1 style="font-size:120%"><a href="acquisti.php">Home</a></h1></b></center>
+			</div>
+			<div class="catalogue">
+				<center><b><h1 style="font-size:120%"><a href="">Catalogue</a></h1></b></center>
+				    <ul class="dropdown-menu">
+						<li><a href=""><h3><center>Earrings</center></h3></a></li>
+						<li><a href=""><h3><center>Pendant</center></a></li>
+						<li><a href=""><h3><center>Rings</center></a></li>
+					</ul>
+			</div>
+			<div class="about">
+				<center><b><h1 style="font-size:120%"><a href="">About Us</a></h1></b></center>
+			</div>
+			<div class="contact">
+				<center><b><h1 style="font-size:120%"><a href="">Contact Us</a></h1></b></center>
+			</div>
+			<div id="sign">
+				<center><b><h1 style="font-size:120%"><a href="sign_up.html">New Sign Up</a></h1></b></center>
+			</div>
+		<br>
+		</div>
+		<div class="deal1">
+			<form name="myForm" action="Registration.php" enctype="multipart/form-data" method="post">
+				<center>
+					<label><input type="text" name="fname" id="fname" placeholder="First Name"/>
+						<span id="fn">Enter your First name</span></label>
+					<label><input type="text" name="mname" id="mname" placeholder="Middle Name"/>
+						<span id="mn">Enter your Middle name</span></label>
+					<label><input type="text" name="lname" id="lname" placeholder="Last Name"/>
+						<span id="ln">Enter your Last name</span></label>
+					<label><input type="text" name="contact" id="contact" placeholder="Contact number"/>
+						<span id="cn1">Enter your mobile  number</span>
+						<span id="cn2">Mobile number should have 10 digits</span></label>
+					<label><input type="email" name="emailadd" id="emailadd" placeholder="Email Address"/>
+						<span id="e1">Enter your emaiil address</span>
+						<span id="e2">Enter a valid email address</span></label>
+					<label><input type="text" name="login" id="login" placeholder="Login id"/>
+						<span id="log">Enter login id</span></label>
+					<label><input type="password" name="pass1" id="pass1" placeholder="Password"/>
+						<span id="p1">Password must have atleast 1 uppercaseletter,1 lowercase letter and 1 digit</span></label>
+					<label><input type="password" name="pass2" id="pass2" placeholder="Confirm Password"/><br>
+						<span id="p2">Passwords do not match</span></label>
+					<label><img id="captcha" src="securimage/securimage_show.php" alt="CAPTCHA Image" /></label>
+					<br><br><input type="text" placeholder="Enter captcha value" name="captcha_code"/>
+					<br><a href="#" onclick="document.getElementById('captcha').src = '/securimage/securimage_show.php?' + Math.random(); return false"><font color="#B85CE6">[ Different Image ]</font></a>
+					<br><br><button type="submit" class="filter3" onClick="#">Signup</button>
+					<div id="response"></div>
+			</form>
+				</center>
+		</div>
+		<div class="new_log">
+			<div id="new_log1">
+			<center><h3><br>OR</center></h3>
+			</div>
+			<br><br><br><center><img src="img\google.jpg" width="95%;"></center>
+		</div>
+		<div class="footer">
+			<div class="contact1">
+				<center><b><h1 style="font-size:120%"><a href="">Contact Us</a></h1></b></center>
+			</div>
+			<div class="terms">
+				<center><b><h1 style="font-size:120%"><a href="">Terms and Conditions</a></h1></b></center>
+			</div>
+			<div class="pay">
+				<center><b><h1 style="font-size:120%"><a href="pay.php">Payment Methods</a></h1></b></center>
+			</div>
+			<a href="https://twitter.com" class="twitter" target="blank">
+				<img alt="Twitter" src="img/twitter.jpg" width="36" height="36" />
+			</a>
+			<a href="https://www.facebook.com" class="fb" target="blank">
+				<img alt="Facebook" src="img/fb.png" width="35" height="35" />
+			</a>
+		</div>
+		
+		<script language="javascript" src="json2.js"></script>
+		<script type="text/javascript">
+		</script>
+		<script src="js/jquery.js"></script>
+		<script src="js/ajax.js"></script>
+	
+	</body>
+</html>

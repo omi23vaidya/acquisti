@@ -1,0 +1,32 @@
+.result
+{
+	float:left;
+	height:45%;
+	width:30%;
+	margin-left:2%;
+	margin-top:2%;
+	border:2px solid black;
+	line-height:30%;
+}
+
+img.imgres
+{
+	margin-left:25%;
+	height:65%;
+	width:50%;
+}
+
+input.add
+{
+	background-color:#D6F5FF;
+	float:top;
+	border:solid 1px #3399FF;
+}
+
+#panel1 
+{
+	margin-top:10%;
+    margin-left:5%;
+}
+
+
